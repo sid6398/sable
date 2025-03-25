@@ -123,7 +123,8 @@ nav {
 .secure-credit span,
 .premium-card span,
 .mobile-img span,
-.us-credit span {
+.us-credit span,
+.global-citizen span {
   color: rgba(160, 161, 168, 1);
 }
 
