@@ -35,14 +35,15 @@ nav {
 
 .header-cards .card1 {
   position: absolute;
-  top: 10%;
+  top: 65%;
   right: 10%;
+  /* z-index: ; */
 }
 
 .header-cards .card2 {
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: -200px;
+  left: 15%;
 }
 
 #intro {
@@ -102,6 +103,7 @@ nav {
 #accounts-counting {
   background-color: #1c1c1e;
   padding: 60px 0;
+  position: relative;
 }
 
 #accounts-counting .small-heading span {
