@@ -1,16 +1,37 @@
-var swiper = new Swiper('.swiper-container', {
-    loop: true,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    autoplay: {
-        delay: 1000,
-        disableOnInteraction: false,
-    },
-    slidesPerView: "auto",
-    spaceBetween: 48,
+// var swiper = new Swiper('.swiper-container', {
+//     loop: true,
+//     pagination: {
+//         el: '.swiper-pagination',
+//         clickable: true,
+//     },
+//     autoplay: {
+//         delay: 1000,
+//         disableOnInteraction: true,
+//     },
+//     slidesPerView: "2",
+//     spaceBetween: 8,
+// });
+
+$(document).ready(function(){
+    $('.testimonial-carousel').slick({
+        infinite: true,
+        slidesToShow: 2, 
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false, 
+        dots: false, 
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1 
+                }
+            }
+        ]
+    });
 });
+
 
 
 
