@@ -429,6 +429,10 @@ th {
   height: 100%;
 }
 
+.footer-right{
+  height: 100%;
+}
+
 .soon{
   color: rgba(31, 198, 187, 1);
 }
