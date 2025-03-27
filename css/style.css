@@ -419,6 +419,10 @@ th {
   display: none !important;
 }
 
+.quote-icon img{
+  width: 30px;
+}
+
 #footer {
   background-color: #000;
   padding: 80px 0;
@@ -428,6 +432,10 @@ th {
 @media (max-width: 768px) {
   .intro-heading h1 {
     font-size: 40px;
+  }
+
+  .quote-icon img{
+    width: 15px;
   }
 
   .logo-track {
